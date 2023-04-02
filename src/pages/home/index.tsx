@@ -1,10 +1,12 @@
 //STYLES
+import React from 'react';
 import './styles.css';
+import { Navbar } from '../../components/navbar';
 
 export function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <React.Fragment>
+      <Navbar />
+    </React.Fragment>
   );
 }

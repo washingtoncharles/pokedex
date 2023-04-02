@@ -2,4 +2,23 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--co-background);
+}
+
+:root {
+  --co-background: #e6e6e6;
+  --co-primary: #F2B807;
+  --co-secundary: #416BBF;
+  --co-terciary: #F21D2F;
+  --co-terciary-lighter: #ec414f;
+
+  --co-title: #5a5959;
+  --co-subtitle: #aca9a9;
+
+  --co-white: #FFFFFF;
+  --co-black: #000000;
 }
